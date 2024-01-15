@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Wifi Monitor</string>
+    <string name="fragment_home_label">Главная</string>
+    <string name="fragment_settings_label">Настройки</string>
+    <string name="transport_cellular">Подключено по моб. интернету</string>
+    <string name="transport_wifi">Подключено по Wifi</string>
+    <string name="transport_not_defined">Транспорт не определен</string>
+    <string name="no_connection">Нет подключения</string>
+</resources>

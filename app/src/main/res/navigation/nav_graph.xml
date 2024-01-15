@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.example.wifimonitor.HomeFragment"
+        android:label="@string/fragment_home_label"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/fragmentSettings"
+        android:name="com.example.wifimonitor.SettingsFragment"
+        android:label="@string/fragment_settings_label"
+        tools:layout="@layout/fragment_settings"/>
+
+</navigation>
